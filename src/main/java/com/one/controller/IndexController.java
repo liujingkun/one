@@ -14,9 +14,7 @@ public class IndexController {
 
     @RequestMapping(value = "getIndex", method = {RequestMethod.GET, RequestMethod.POST})
     public String getIndex(String name ,ModelMap modelMap) {
-
         modelMap.put("name",name);
-
         return "/debug";
     }
 
