@@ -16,7 +16,6 @@ public class IndexController {
     public String getIndex(String name ,ModelMap modelMap) {
 
         modelMap.put("name",name);
-
         return "/debug";
     }
 
